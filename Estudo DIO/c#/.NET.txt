@@ -1,0 +1,41 @@
+//DIO = C# + .NET - Anotação 02
+
+classe genérina
+
+public class Ponto {
+
+	publico int x,y;
+	public Ponto(int x, int y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+}
+
+
+Classes podem ser:
+
+public - acessível a todos
+protected - acessível apenas a classes herdeiras da classe original
+internal - só é acessível de dentro do assembly (não acessivel em outros projetos)
+private - só acessível dentro da própria classe onde está contido
+
+método = Verbo = ação
+
+// Introdução C# 04
+
+Structs
+-Como as classes, as structs são estruturas de dados que podem conter membros de dados
+e membros de ação, mas, diferentemente das classes, as structs são tipos de valor e não requerem alocação de heap (memória).
+Uma variável de um tipo de struct armazena diretamente os dados da estrutura, enquanto uma variável de um tipo de classe armazena uma referência a um objeto alocado na 
+memória.
+
+-Structs não aceitam herança
+
+*ENUMS*
+
+- Um enum é um tipo de valor distinto com um conjunto de constantes nomeadas
+
+
+
+

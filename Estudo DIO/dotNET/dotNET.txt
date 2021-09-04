@@ -1,1 +1,9 @@
 // Anotações sobre .NET
+
+CLI
+
+dotnet new console -n DigitalInnovationOne
+cd DigitalInnovationOne
+code . //comando para abrir o conteudo da pasta onde a linha de comando está
+donet restore
+

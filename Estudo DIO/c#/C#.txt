@@ -1,1 +1,66 @@
 //códigos de C#
+
+//Primeiros passos com .NET - Conhecendo o C#
+
+- C# orientada a objeto e fortemente tipada
+
+//case
+
+public static void Main(string[] args){
+	int numeroDeArgumentos = args.Lenght;
+	switch (numeroDeArgumentos)
+	{
+		case 0:
+			Console.WriteLine("Você escolheu a opção zero");
+			break;
+		case 1:
+			Console.WriteLine("Você escolheu a opção um");
+			break;
+		case 2:
+			Console.WriteLine("Você escolheu a opção um");
+			break;
+		}
+	}
+
+
+//while
+
+public static void Main(string[] args){
+	int cont = 0;
+	while (cont <= numero){
+		Console.WriteLine(cont);
+		cont++;
+	}
+}
+	
+
+
+// teste while
+
+using System;
+					
+public class Program
+{
+	public static void Main(string[] args){
+	int cont = 0;
+	Console.WriteLine("Escreva um número para realizar a contagem.");
+	int numero = int.Parse (Console.ReadLine());
+	while (cont <= numero){
+		Console.WriteLine(cont);
+		cont++;
+	}
+}
+	
+}
+
+
+
+
+
+	
+
+
+
+
+
+
